@@ -1,8 +1,3 @@
-import UIKit
-
-var str = "Hello, playground"
-
-
 /*
  * Pre-order Traversal
  * visit the root first then, traverse the left subtree. Finally, traverse the right subtree
