@@ -28,8 +28,8 @@ func postorderTraversal(_ root: TreeNode?) -> [Int] {
         return []
     }
     
-    var traversed = postorderTraversal(node.right)
-    traversed.append(contentsOf: postorderTraversal(node.left))
+    var traversed = postorderTraversal(node.left)
+    traversed.append(contentsOf: postorderTraversal(node.right))
     traversed.append(node.val)
     
     return traversed
